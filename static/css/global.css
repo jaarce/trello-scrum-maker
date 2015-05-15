@@ -1,0 +1,145 @@
+/* STYLESHEET - Pet Rainbow  
+
+/**************************************************************
+* Table of Contents                                           *
+***************************************************************
+* 1. Globals
+*/
+
+
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://webfonts.fonts.com
+*/
+ 
+
+/* CSS Imports
+========================================================================== */
+@import url("../font.css");
+
+/* Globals
+========================================================================== */
+html,
+body {
+    height: 100%;
+    font-family: 'Lato', Helvetica Neue, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #495861;
+}
+
+a, a:hover, a:focus{
+    outline: 0 !important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Avenir Next Cyr W00 Demi", 'Lato', Helvetica Neue, Arial, sans-serif;
+    color: #323638;
+}
+p{
+    font-family: 'Lato', Helvetica Neue, Arial, sans-serif;
+    color: #495861;
+    line-height: 20px;
+    margin: 0 0 20px;
+}
+
+
+body {
+    font: normal 14px/150% "Avenir Next Cyr W00 Regular", sans-serif;
+    color: #4A4A4A ;
+}
+
+
+.btn-rounded {
+    border-radius: 100px;
+}
+
+.btn-xl {
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 40px;
+}
+
+.btn{
+    font-family:"Avenir Next Cyr W00 Bold", 'Lato', Helvetica Neue, Arial, sans-serif;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background: #ACD34D;
+    border: none;
+    display: inline-block;
+    text-transform: uppercase;
+ 
+}
+.btn-primary:hover, .btn-primary:focus {
+    background: #8BAA3F;
+}
+
+
+/*
+* Helpers
+*/
+.bg-helpers p{
+    padding: 10px;
+}
+.bg-success{
+    background: #dff0d8;
+    color: #4c6442;
+}
+.bg-danger{
+    background: #f2dede;
+    color: #9b5757;
+}
+.bg-warning {
+    background-color: #fcf8e3;
+    color: #7b7454;
+}
+.bg-info {
+    background-color: #d9edf7;
+    color: #457086;
+}
+
+.hvr-back-pulse {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+ /* -moz-osx-font-smoothing: grayscale;*/
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
+  -webkit-animation-name: hvr-back-pulse;
+  animation-name: hvr-back-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-color: #8BAA3F;
+  background-color: #8BAA3F;
+  color: white;
+}
+
+/* Containers
+========================================================================== */
+.container{
+    max-width: 970px;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+ 

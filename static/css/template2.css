@@ -1,0 +1,210 @@
+/* STYLESHEET - Pet Rainbow  
+
+/**************************************************************
+* TEMPLATE 1                                                  *
+***************************************************************
+*/
+
+.btn-xl{
+    padding: 20px 30px;
+}
+
+/* Containers
+========================================================================== */
+.container{
+    max-width: 970px;
+}
+
+.wrap{
+    background: #ffffff;
+   
+}
+.main{
+     padding: 0px 20px 60px;
+}
+
+
+/* Logo
+========================================================================== */
+.logo{
+    text-align: left;
+    margin: 20px 0;
+}
+.logo p{
+    color: #A3B1B4;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin: 10px 0 15px;
+    line-height: 20px;
+    font-size: 14px;
+}
+.logo img{
+    display: block;
+    width: 320px;
+    margin: 0 auto;
+}
+.logo .btn{
+    text-align: center;
+    display: block;
+}
+
+/* Circle Icon
+========================================================================== */
+.circle-icon{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    margin-top: -50px;
+    border-radius: 50px;
+    background: rgba(50,54,56,0.9);
+    text-align: center;
+}
+.circle-icon img{
+    position: absolute;
+  top: -999px;            /* use sufficiently large number */
+  bottom: -999px;
+  left: -999px;
+  right: -999px;
+  margin: auto;
+    
+}
+/* Article
+========================================================================== */
+ .main h1{
+     text-align: center;
+     margin: 20px 0;
+     font-size: 18px;
+ }
+
+/*
+* Article with image
+*/
+
+.article-img{
+    margin: 30px 0; 
+}
+.article-img img{
+    margin: 0 auto 10px;
+}
+.article-img p{
+    margin: 20px 0 0;
+}
+ 
+
+
+
+/* CTA Footer
+========================================================================== */
+.footer-cta{
+    padding: 60px 20px;
+    background: #EFF4F6;
+    border-top: 1px solid #D8DDDE;
+}
+.footer-text{
+    margin: 0 0 40px 0;
+}
+.footer-text p{
+    font-size: 24px
+    font-weight: 400;
+}
+
+.footer-main p{
+    padding: 20px 0;
+    color: #657681;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+/* Media Queries
+========================================================================== */
+ 
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px){
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px){
+ 
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px){
+    
+     /* Globals
+    ========================================================================== */
+    
+    p {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 28px;
+    }
+    
+    .btn-xl {
+        display: inline-block;
+        font-size: 30px;
+        padding: 20px 50px;
+    }
+    
+    /* Article
+    ========================================================================== */
+    .main {
+        padding: 0px 60px 60px;
+    }
+    
+    .main h1 {
+        text-align: center;
+        font-size: 36px;
+        margin: 40px 0;
+    }
+    .article-img p {
+       margin: 0px 0 0;
+   }
+    
+    /* Logo
+    ========================================================================== */
+    .logo{
+        text-align: center;
+        margin: 20px 0;
+    }
+    .logo p {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+ 
+    .logo .btn{
+        font-size: 14px;
+        padding: 15px;
+        display: block;
+   
+    }
+    
+ 
+    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px){
+    .logo .btn{
+        font-size: 18px;
+        padding: 15px;
+        display: block;
+   
+    }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px){
+
+}
